@@ -1,0 +1,99 @@
+//
+// UT DS search form CSS Overrides.
+//
+
+// TODO remove hiding of contextual links
+div.search-block-form div.contextual {
+  display: none !important;
+}
+// end TODO
+
+.ut-search-form {
+  border: 1px solid $ut-shade--s40;
+  background-color: $ut-white;
+  height: 35px;
+  margin: 0;
+  margin-left: 0;
+  width: 100%;
+  padding: 0;
+  // stylelint-disable-next-line at-rule-no-unknown
+  @include screen-mq(lg) {
+    margin-left: auto;
+    width: 218px;
+  }
+
+  form {
+    position: relative;
+  }
+
+  input[type="search"] {
+    border: none;
+    background: transparent;
+    height: 2rem;
+    padding-left: .5rem;
+    width: 100%;
+    max-width: unset;
+    margin: 0;
+    // stylelint-disable-next-line at-rule-no-unknown
+    @include screen-mq(lg) {
+      width: 218px;
+    }
+    &::placeholder {
+      font-style: italic;
+    }
+  }
+
+  input[type="submit"] {
+    border: none;
+    height: 2rem;
+    line-height: 2;
+    right: 0;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    width: 2.25rem;
+    color: transparent;
+    background-color: transparent;
+    z-index: 1;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .svg.search {
+    position: absolute;
+    top: rem-calc(3);
+    right: rem-calc(3);
+    z-index: 0;
+    width: 24px;
+    height: 24px;
+    fill: $ut-burntorange;
+  }
+}
+
+form.search-form {
+  position: relative;
+  input {
+    max-width: unset;
+  }
+  #edit-keys {
+    background: transparent;
+  }
+  #edit-submit {
+    position: absolute;
+    width: 50px;
+    top: rem-calc(25);
+    right: 0;
+    border: none;
+    background: transparent;
+    color: transparent;
+  }
+  .svg.search {
+    fill: $ut-burntorange;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: rem-calc(10);
+    top: rem-calc(35);
+    z-index: -1;
+  }
+}

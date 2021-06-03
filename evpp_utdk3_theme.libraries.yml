@@ -1,0 +1,16 @@
+global:
+  css:
+    theme:
+      css/base.css: {}
+      css/evpp_utdk3_theme.css: {}
+      css/align-override.css: {}
+  js:
+    js/jquery-accessibleMegaMenu.js: {}
+    js/util.js: {}
+    js/tab.js: {}
+    js/svgxuse.js: {}
+    js/custom.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupal.debounce

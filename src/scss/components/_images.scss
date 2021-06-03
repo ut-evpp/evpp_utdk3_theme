@@ -1,0 +1,14 @@
+//
+// Image components.
+//
+
+img {
+  // stylelint-disable-next-line at-rule-no-unknown
+  @include img-fluid;
+}
+// Insure image link image fields fill up their container.
+.ut-flex-content-area {
+  img {
+    width: 100%;
+  }
+}

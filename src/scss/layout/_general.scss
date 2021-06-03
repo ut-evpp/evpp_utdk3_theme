@@ -1,0 +1,38 @@
+/* Styles for layout that are not specific to any one region. */
+
+/* Add a margin-bottom to wherever .block class is used in the main content region. */
+.block {
+  margin-bottom: 2.5rem;
+}
+
+/* Declare format for nested ordered lists */
+ol {
+  li {
+    list-style-type: decimal;
+    ol {
+      li {
+        list-style-type: upper-alpha;
+        ol {
+          li {
+            list-style-type: upper-roman;
+            ol {
+              li {
+                list-style-type: decimal;
+                ol {
+                  li {
+                    list-style-type: lower-alpha;
+                    ol {
+                      li {
+                        list-style-type: lower-roman;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

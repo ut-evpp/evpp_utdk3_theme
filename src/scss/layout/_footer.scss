@@ -1,0 +1,29 @@
+//
+// UT DS Footer CSS Overrides.
+//
+footer.ut-footer {
+  .block {
+    margin-bottom: rem-calc(20);
+  }
+  .required-links__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .required-links__list-item {
+    flex: 0 1 48%;
+    margin-bottom: rem-calc(15);
+  }
+  .footer-menu__list-item {
+    margin-bottom: rem-calc(20);
+  }
+  .footer-textarea {
+    font-size: 0.875rem;
+    line-height: 1.25;
+    padding-left: rem-calc(10);
+    border-left: 1px solid $ut-shade--t60;
+  }
+  a {
+    color: $ut-burntorange--s20;
+  }
+}

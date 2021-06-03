@@ -1,0 +1,53 @@
+///// Global Imports & Styles For EVPP Theme
+
+// Functions, Mixins and Variables
+// functions.scss is necessary to import before settings
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../variables";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../mixins/responsive";
+@import "../mixins/general_mixins";
+
+// Global Design System Components
+@import "../texas-design-system/components/brandbar";
+@import "../texas-design-system/components/buttons";
+@import "../texas-design-system/components/flex-content-area";
+@import "../texas-design-system/components/footer";
+@import "../texas-design-system/components/forms";
+@import "../texas-design-system/components/header";
+@import "../texas-design-system/components/links";
+
+// Global Design System Core Branding
+@import "../texas-design-system/core-brand/typography";
+@import "../texas-design-system/core-brand/utilities";
+
+// Global EVPP Theme Components
+@import "../components/images";
+@import "../components/main-nav";
+@import "../components/social-icons";
+@import "../components/subnav";
+@import "../components/parent-entity";
+@import "../components/main-logo";
+@import "../components/header-menu";
+@import "../components/horizontal-tabs";
+@import "../components/search-form";
+@import "../components/breadcrumbs";
+@import "../layout/header";
+@import "../layout/footer";
+@import "../layout/region-content";
+@import "../layout/general";
+@import "../components/action-tabs";
+@import "../components/action-links";
+@import "../components/feed-block";
+@import "../components/flex-content-area";
+@import "../components/brandbar";
+@import "../components/forms";
+@import "../components/promo-list";
+@import "../components/quick-links";
+@import "../components/hero";
+@import "../components/promo-unit";
+
+// Drupal-specific tweaks
+@import "../drupal/media-library";
+@import "../drupal/layout-builder";
+@import "../drupal/pager";

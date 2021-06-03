@@ -1,0 +1,59 @@
+//
+// UT DS Footer CSS Overrides.
+//
+
+.ut-header,
+.ut-footer {
+  // stylelint-disable-next-line at-rule-no-unknown
+  @include img-fluid;
+}
+
+.ut-header {
+  .ut-logo--main {
+    max-height: 40px;
+    // stylelint-disable-next-line at-rule-no-unknown
+    @include screen-mq(md) {
+      max-height: 60px;
+    }
+  }
+}
+
+.ut-footer {
+  .ut-logo--main {
+    max-height: 60px;
+  }
+}
+
+.short_logo {
+  .ut-logo--main {
+    max-height: 40px;
+    // stylelint-disable-next-line at-rule-no-unknown
+    @include screen-mq(md) {
+      max-height: 60px;
+    }
+  }
+}
+
+.tall_logo {
+  #ut-main_menu-wrapper {
+    margin-top: rem-calc(20);
+    // stylelint-disable-next-line at-rule-no-unknown
+    @media screen and (min-width: map-get($grid-breakpoints, md)) and (max-width: map-get($grid-breakpoints, lg) - 1px) {
+      margin-top: 1.35rem;
+    }
+  }
+
+  .region-primary-menu nav {
+    // stylelint-disable-next-line at-rule-no-unknown
+    @include screen-mq(lg) {
+      margin-top: 1.875rem;
+    }
+  }
+  .ut-logo--main {
+    max-height: 60px;
+    // stylelint-disable-next-line at-rule-no-unknown
+    @include screen-mq(md) {
+      max-height: 100px;
+    }
+  }
+}

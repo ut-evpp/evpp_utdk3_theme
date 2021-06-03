@@ -1,0 +1,25 @@
+//
+// Header menu component.
+//
+
+ul.header-menu__list {
+  margin-bottom: 0;
+  .header-menu__list-item {
+    display: block;
+    margin-bottom: rem-calc(10);
+    // stylelint-disable-next-line at-rule-no-unknown
+    @include screen-mq(sm) {
+      display: inline-block;
+      margin-bottom: 0;
+    }
+    // stylelint-disable-next-line at-rule-no-unknown
+    @include screen-mq(sm) {
+      & + .header-menu__list-item {
+        margin-left: rem-calc(5);
+      }
+    }
+  }
+  .header-menu__link {
+    padding: rem-calc(5);
+  }
+}
