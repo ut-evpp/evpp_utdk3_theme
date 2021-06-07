@@ -886,6 +886,24 @@ h6,
   font-weight: 300;
   line-height: 1.63;
 }
+.p2 {
+  letter-spacing: 0;
+  color: rgba(47, 50, 59, 0.8);
+  font-family: benton-sans, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 28px;
+}
+.p1 {
+  letter-spacing: 0;
+  color: rgba(28, 32, 44, 0.8);
+  font-family: benton-sans, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 24px;
+}
 .overline {
   letter-spacing: 2px;
   text-transform: uppercase;

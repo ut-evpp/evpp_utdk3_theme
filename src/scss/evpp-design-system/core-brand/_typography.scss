@@ -69,6 +69,22 @@ h6,
   line-height: 1.63;
 }
 
+.p2 {
+  @include ut-font--sans-500;
+  font-size: 16px;
+  color: rgba(47, 50, 59, 0.8);
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.p1 {
+  @include ut-font--sans-500;
+  font-size: 14px;
+  color: rgba(28, 32, 44, 0.8);
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
 .overline {
   @include overline;
 }
