@@ -1,0 +1,37 @@
+//
+// EVPP DS Typography Mixins
+//
+
+// ----------
+// Block Modifier @access public
+// @param {String} $modifer - Modifier's name
+// stylelint-disable at-rule-no-unknown
+// stylelint-disable plugin/no-browser-hacks
+// stylelint-disable length-zero-no-unit
+
+// ----------
+// Font Family Mixins
+//300: GT SECTRA BOOK
+@mixin ut-font--serif-300 {
+  font-family: 'GT Sectra', serif;
+  font-weight: 300;
+}
+
+//300: GT SECTRA BOOK ITALIC
+@mixin ut-font--serif-300i {
+  font-family: 'GT Sectra', serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+//400: GT SECTRA REGULAR
+@mixin ut-font--serif-400 {
+  font-family: 'GT Sectra', serif;
+  font-weight: 400;
+}
+
+//500: GT SECTRA MEDIUM
+@mixin ut-font--serif-500 {
+  font-family: 'GT Sectra', serif;
+  font-weight: 500;
+}

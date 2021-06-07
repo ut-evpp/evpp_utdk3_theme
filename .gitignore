@@ -3,3 +3,4 @@ node_modules/
 
 # Ignore git pre-commit config
 .github/config.sh
+.DS_Store

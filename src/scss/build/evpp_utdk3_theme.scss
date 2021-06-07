@@ -7,6 +7,7 @@
 @import "../../../node_modules/bootstrap/scss/variables";
 @import "../mixins/responsive";
 @import "../mixins/general_mixins";
+@import "../mixins/typography_mixins";
 
 // Global Design System Components
 @import "../texas-design-system/components/brandbar";
@@ -20,6 +21,9 @@
 // Global Design System Core Branding
 @import "../texas-design-system/core-brand/typography";
 @import "../texas-design-system/core-brand/utilities";
+
+// EVPP Design System Core Branding
+@import "../evpp-design-system/core-brand/typography";
 
 // Global EVPP Theme Components
 @import "../components/images";

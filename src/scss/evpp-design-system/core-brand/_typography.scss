@@ -1,0 +1,62 @@
+// ----------
+// Block Modifier @access public
+// @param {String} $modifer - Modifier's name
+// stylelint-disable at-rule-no-unknown
+// stylelint-disable plugin/no-browser-hacks
+// stylelint-disable length-zero-no-unit
+
+// ----------
+// Headings
+h1,
+.ut-h1 {
+  @include ut-font--serif-400;
+  font-size: 2.75rem;
+  line-height: 1.09;
+  color: #1C202C;
+  letter-spacing: 0;
+}
+
+h2,
+.ut-h2 {
+  @include ut-font--serif-500;
+  font-size: 2rem;
+  line-height: 1.125;
+  color: #1C202C;
+  letter-spacing: 0;
+}
+
+h3,
+.ut-h3 {
+  font-size: 1.5625rem;
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+h4,
+.ut-h4 {
+  font-size: 1.25rem;
+  line-height: 1.25;
+  font-weight: normal;
+}
+
+h5,
+.ut-h5 {
+  font-size: 1rem;
+  line-height: 1.5625;
+  font-weight: 600;
+}
+
+h6,
+.ut-h6 {
+  font-size: 0.8125rem;
+  line-height: 1.385;
+  font-weight: 600;
+}
+
+.p3 {
+  @include ut-font--serif-300;
+  font-size: 1.375rem;
+  color: rgba(0, 0, 0, 0.8);
+  letter-spacing: 0;
+  line-height: 1.63;
+}
