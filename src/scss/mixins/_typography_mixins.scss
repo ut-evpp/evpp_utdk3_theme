@@ -35,3 +35,36 @@
   font-family: 'GT Sectra', serif;
   font-weight: 500;
 }
+
+//500: BENTON SANS REGULAR
+@mixin ut-font--sans-500 {
+  font-family: benton-sans, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+//600: BENTON SANS MEDIUM
+@mixin ut-font--sans-600 {
+  font-family: benton-sans, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+//MONO
+@mixin ut-font--number {
+  font-family: interstate-mono, monospace;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin overline {
+  color: #1C202C;
+  @include ut-font--sans-600;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
+  &.brand {
+    color: #bf5700;
+  }
+}

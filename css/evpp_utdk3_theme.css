@@ -840,27 +840,43 @@ h2,
 }
 h3,
 .ut-h3 {
-  font-size: 1.5625rem;
-  font-weight: 500;
-  line-height: 1.25;
+  letter-spacing: 0;
+  color: #1b2532;
+  font-family: benton-sans, Arial, Helvetica, sans-serif;
+  font-size: 1.75rem;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.14;
 }
 h4,
 .ut-h4 {
+  letter-spacing: 0;
+  color: #1b2532;
+  font-family: benton-sans, Arial, Helvetica, sans-serif;
   font-size: 1.25rem;
-  font-weight: normal;
-  line-height: 1.25;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.4;
 }
 h5,
 .ut-h5 {
+  letter-spacing: 0;
+  color: #1c202c;
+  font-family: benton-sans, Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  line-height: 1.5625;
+  font-style: normal;
+  line-height: 1.75;
 }
 h6,
 .ut-h6 {
-  font-size: 0.8125rem;
+  letter-spacing: 0;
+  color: #1c202c;
+  font-family: benton-sans, Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
   font-weight: 600;
-  line-height: 1.385;
+  font-style: normal;
+  line-height: 1.5;
 }
 .p3 {
   letter-spacing: 0;
@@ -869,6 +885,57 @@ h6,
   font-size: 1.375rem;
   font-weight: 300;
   line-height: 1.63;
+}
+.p2 {
+  letter-spacing: 0;
+  color: rgba(47, 50, 59, 0.8);
+  font-family: benton-sans, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 28px;
+}
+.p1 {
+  letter-spacing: 0;
+  color: rgba(28, 32, 44, 0.8);
+  font-family: benton-sans, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 24px;
+}
+.overline {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1c202c;
+  font-family: benton-sans, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 20px;
+}
+.overline.brand {
+  color: #bf5700;
+}
+.number {
+  letter-spacing: 1.5px;
+  color: #bf5700;
+  font-family: interstate-mono, monospace;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+}
+.number span {
+  display: block;
+  margin-top: 8px;
+  letter-spacing: 0;
+  color: #1c202c;
+  font-family: benton-sans, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 24px;
 }
 img {
   max-width: 100%;

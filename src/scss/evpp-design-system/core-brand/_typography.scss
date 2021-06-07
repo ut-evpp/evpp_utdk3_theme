@@ -27,30 +27,38 @@ h2,
 
 h3,
 .ut-h3 {
-  font-size: 1.5625rem;
-  line-height: 1.25;
-  font-weight: 500;
+  @include ut-font--sans-600;
+  font-size: 1.75rem;
+  line-height: 1.14;
+  color: #1B2532;
+  letter-spacing: 0;
 }
 
 h4,
 .ut-h4 {
+  @include ut-font--sans-600;
   font-size: 1.25rem;
-  line-height: 1.25;
-  font-weight: normal;
+  line-height: 1.4;
+  color: #1B2532;
+  letter-spacing: 0;
 }
 
 h5,
 .ut-h5 {
+  @include ut-font--sans-600;
   font-size: 1rem;
-  line-height: 1.5625;
-  font-weight: 600;
+  line-height: 1.75;
+  color: #1C202C;
+  letter-spacing: 0;
 }
 
 h6,
 .ut-h6 {
-  font-size: 0.8125rem;
-  line-height: 1.385;
-  font-weight: 600;
+  @include ut-font--sans-600;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #1C202C;
+  letter-spacing: 0;
 }
 
 .p3 {
@@ -59,4 +67,41 @@ h6,
   color: rgba(0, 0, 0, 0.8);
   letter-spacing: 0;
   line-height: 1.63;
+}
+
+.p2 {
+  @include ut-font--sans-500;
+  font-size: 16px;
+  color: rgba(47, 50, 59, 0.8);
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.p1 {
+  @include ut-font--sans-500;
+  font-size: 14px;
+  color: rgba(28, 32, 44, 0.8);
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.overline {
+  @include overline;
+}
+
+.number {
+  color: #bf5700;
+  @include ut-font--number;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  line-height: 24px;
+  span {
+    display: block;
+    margin-top: 8px;
+    letter-spacing: 0;
+    color: #1C202C;
+    @include ut-font--sans-600;
+    font-size: 14px;
+    line-height: 24px;
+  }
 }

@@ -1,6 +1,7 @@
 global:
   css:
     theme:
+      https://use.typekit.net/yet8acf.css: {}
       css/base.css: {}
       css/evpp_utdk3_theme.css: {}
       css/align-override.css: {}
