@@ -5,6 +5,35 @@
   font-style: normal;
 }
 @font-face {
+  font-family: "GT Sectra", serif;
+  src: url("../fonts/GTSectra/GT-Sectra-Book.woff") format("woff"), url("../fonts/GTSectra/GT-Sectra-Book.woff2") format("woff2"), url("../fonts/GTSectra/GT-Sectra-Book.ttf") format("truetype");
+  font-weight: 300;
+
+  font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra", serif;
+  src: url("../fonts/GTSectra/GT-Sectra-Book-Italic.woff") format("woff"), url("../fonts/GTSectra/GT-Sectra-Book-Italic.woff2") format("woff2"), url("../fonts/GTSectra/GT-Sectra-Book-Italic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+
+  font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra", serif;
+  src: url("../fonts/GTSectra/GT-Sectra-Regular.woff") format("woff"), url("../fonts/GTSectra/GT-Sectra-Regular.woff2") format("woff2"), url("../fonts/GTSectra/GT-Sectra-Regular.ttf") format("truetype");
+  font-weight: 400;
+
+  font-display: swap;
+}
+@font-face {
+  font-family: "GT Sectra", serif;
+  src: url("../fonts/GTSectra/GT-Sectra-Medium.woff") format("woff"), url("../fonts/GTSectra/GT-Sectra-Medium.woff2") format("woff2"), url("../fonts/GTSectra/GT-Sectra-Medium.ttf") format("truetype");
+  font-weight: 500;
+
+  font-display: swap;
+}
+@font-face {
   font-family: "LibreFrank";
   src: url("../fonts/librefrank/librefranklin-bold-webfont.woff") format("woff"), url("../fonts/librefrank/librefranklin-bold-webfont.woff2") format("woff2"), url("../fonts/librefrank/librefranklin-bold.ttf") format("truetype");
   font-weight: bold;
