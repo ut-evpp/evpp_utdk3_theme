@@ -1,0 +1,65 @@
+
+input[type="submit"] {
+  display: inline-block;
+  margin-bottom: 0.55rem;
+  padding: 0.5rem 1rem;
+  -webkit-transition: background-color,color,border-color,0.33s ease-out;
+  transition: background-color,color,border-color,0.33s ease-out;
+  text-decoration: none !important;
+  color: #fff;
+  border: 2px solid #bf5700;
+  border-radius: 4px;
+  background-color: #bf5700;
+  font-family: "LibreFrank",Arial,Helvetica,sans-serif;
+  font-weight: 600;
+  width: auto;
+}
+
+.form-item label {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  white-space: nowrap;
+  border: 0;
+}
+
+select,
+input,
+select:focus,
+input:focus {
+  width: auto;
+  display: inline-block;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+input[value="Search"],
+input[value="Reset"] {
+  max-width: 150px;
+  display: inline-block;
+}
+input[value="Reset"] {
+  border-color: #bf5700;
+  background-color: #fff;
+  color: #bf5700;
+}
+.form-item-keywords, .form-actions {
+  display: inline;
+}
+input[name="keyword"] {
+  max-width: 350px;
+  display: inline-block;
+}
+.views-exposed-form .form-item {
+  display: inline-block;
+}
+.views-exposed-form select,
+.views-exposed-form input,
+.views-exposed-form select:focus,
+.views-exposed-form input:focus {
+  display: inline-block;
+  max-width: 350px;
+}

@@ -1,0 +1,128 @@
+.stretched-link:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: transparent;
+}
+
+a.stretched-link {
+  color: #1c202c;
+  display: block;
+  padding-right: 94px;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+@media (min-width:768px) {
+  .accordion .card .card-header h5 a.stretched-link {
+    padding-right: 128px;
+  }
+}
+
+.accordion .card .card-header h5 a.stretched-link span {
+  float: right;
+  display: block;
+  height: 100%;
+  width: 64px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.accordion .card .card-header h5 a.stretched-link span:after {
+  font-family: icomoon;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: block;
+  font-size: 24px;
+  width: 64px;
+  height: 24px;
+  border-left: 1px solid rgba(28,32,44,.12);
+  color: rgba(28,32,44,.8);
+  padding: 0 24px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+
+.accordion .card .card-header h5 a.stretched-link[aria-expanded=true] span:after {
+  content: "\E904";
+}
+
+.accordion .card .card-header h5 a.stretched-link[aria-expanded=false] span:after {
+  content: "\E905";
+}
+
+.stretched-link {
+  display: block;
+}
+
+@media (min-width:992px) {
+  .evpp-list .content-wrapper,.evpp-list .date-wrapper,.evpp-list .icon-wrapper,.evpp-list .image-wrapper,.evpp-list .stretched-link {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.evpp-list .stretched-link {
+  width: 100px;
+  text-align: right;
+  padding: 0 24px 0 0;
+}
+
+@media (max-width:991.98px) {
+  .evpp-list .stretched-link {
+    display: none;
+  }
+}
+
+.evpp-list .stretched-link:before {
+  content: "";
+  border-left: 1px solid rgba(28,32,44,.12);
+  padding-right: 10px;
+}
+
+.evpp-list .stretched-link:hover svg {
+  fill: #bf5700;
+}
+
+.evpp-list .stretched-link svg {
+  width: 18px;
+  height: 18px;
+  fill: rgba(28,32,44,.8);
+}
+
+.stretched-link {
+  display: none;
+}
+
+@media (max-width:991.98px) {
+  .evpp-list .content-wrapper .headline-wrapper {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    vertical-align: middle;
+  }
+
+  .evpp-list .content-wrapper .headline-wrapper .stretched-link,.evpp-list .content-wrapper .headline-wrapper h4 {
+    display: table-cell;
+  }
+
+  .evpp-list .content-wrapper .headline-wrapper .stretched-link {
+    width: 64px;
+  }
+}

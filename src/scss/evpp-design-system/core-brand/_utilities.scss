@@ -1,0 +1,72 @@
+.line.above {
+  margin-bottom: 16px;
+  height: 2px;
+  width: 16px;
+  margin: auto;
+  background-image: url("data:image/svg+xml,%3Csvg class='orange-hash' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23BF5700' fill-rule='evenodd' d='M16 0H0v2h16z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.utility {
+  padding-top:26px;
+  padding-bottom:26px;
+  box-shadow:0 1px 0 0 rgba(28,32,44,.12);
+}
+
+.overline {
+  @include overline;
+}
+
+.content-line {
+  border-top: 1px solid rgba(28,32,44,.12);
+}
+
+.l3 {
+  background: linear-gradient(90deg,#fff 65%,#f8f9fa 0);
+}
+
+@media (min-width:1200px) {
+  .l3 {
+    background: linear-gradient(90deg,#fff 60%,#f8f9fa 0);
+  }
+}
+
+.l3-left {
+  background: #fff;
+}
+
+@media (min-width:768px) {
+  .l3-left {
+    background: linear-gradient(90deg,#f8f9fa 35%,#fff 0);
+  }
+}
+
+@media (min-width:1200px) {
+  .l3-left {
+    background: linear-gradient(90deg,#f8f9fa 40%,#fff 0);
+  }
+}
+
+.l3-main {
+  padding-top: 56px;
+  background: #fff;
+}
+
+.l3-side {
+  background: #f8f9fa;
+  padding-top: 57px;
+}
+
+@media (min-width:768px) {
+  .l3-side {
+    background: none;
+  }
+}
+
+.blue-background {
+  background: #1c202c;
+}
+
+.gray-background {
+  background: #f8f9fa;
+}
+

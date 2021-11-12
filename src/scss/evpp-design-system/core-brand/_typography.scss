@@ -85,8 +85,21 @@ h6,
   line-height: 24px;
 }
 
-.overline {
-  @include overline;
+article p, article p.default, article p.small, p, p.default, p.small {
+  color: rgba(28,32,44,.8);
+  font-family: benton-sans,Arial,Helvetica,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+article p, article p.default, p, p.default {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .number {
