@@ -3,7 +3,7 @@
 //
 
 body {
-  font-family: $ut-font--sans;
+  @include ut-font--sans-500;
   font-size: $ut-base-font-size;
   line-height: $ut-text--line-height;
   -ms-text-size-adjust: 100%;

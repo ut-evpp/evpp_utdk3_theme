@@ -631,8 +631,10 @@ a.ut-link--darker:visited {
 body {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  font-family: "LibreFrank", Arial, Helvetica, sans-serif;
+  font-family: benton-sans, Arial, Helvetica, sans-serif;
   font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
   line-height: 1.5625;
 
   -webkit-font-smoothing: antialiased;
